@@ -1,0 +1,10 @@
+This file was forked 12 August 2017 from CORaleigh. 
+
+Following Civic Spark Day, we found this to be a start for a centralized location for all parks in the 
+Wake County area (regardless of jurisdiction!) 
+
+Plan to switch the data in the site from just City of Raleigh parks to all parks in Wake county, regardless of jurisdiction.
+
+Will default to selecting desired amenities first and display list { Name of park, amenity icons } 
++ icon will display detailed view with child line of { address, distance from input address }
+
