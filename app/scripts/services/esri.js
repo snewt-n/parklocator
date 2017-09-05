@@ -58,7 +58,7 @@
           });
 
           // Park Markers layer
-          service.parks = new FeatureLayer('https://maps.raleighnc.gov/arcgis/rest/services/Parks/ParkLocator/MapServer/0', { 
+          service.parks = new FeatureLayer('http://maps.wakegov.com/arcgis/rest/services/OpenSpace/ParksinWake/MapServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json', { 
             mode: FeatureLayer.MODE_SNAPSHOT,
             outFields: ['*'],
             id: 'parks'
